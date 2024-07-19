@@ -1,0 +1,75 @@
+
+body {
+    background: linear-gradient(145deg, #dad8d8, #f1f1f2, #f1f1f1);
+    font-family: Arial, sans-serif;
+}
+
+/* Cambiar el color de la parte superior */
+.header {
+    background-color: #343a40; /* Color oscuro, puedes ajustarlo según tu preferencia */
+    color: white; /* Color del texto */
+    padding: 10px;
+}
+
+/* Cambiar el color de la tabla */
+.table-container {
+    background: #343a40; /* Color de fondo oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.table-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: white; /* Color del texto */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white; /* Color del texto */
+}
+
+.table th {
+    background-color: #495057; /* Color de fondo de los encabezados */
+}
+
+.table tr:hover {
+    background-color: #242C38; /* Color de fondo al pasar el ratón */
+    color: #ffffff;
+}
+
+.action-button.edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.action-button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.action-button:hover {
+    opacity: 0.9;
+}
+
+.navbar-brand-image {
+    height: 5rem !important; 
+    width: auto !important;
+}
+
+
+
+
+
+
+
